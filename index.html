@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tushar Sharma Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0a0a0a, #12002f);
+      color: #fff;
+    }
+
+    header {
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 99;
+    }
+
+    header h1 {
+      font-size: 32px;
+      color: #d946ef;
+    }
+
+    header a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 8px 20px;
+      background: #d946ef;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+
+    header a:hover {
+      background: #a21caf;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 120px 20px 80px;
+    }
+
+    .hero h2 {
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 22px;
+      color: #ccc;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 60px 20px;
+    }
+
+    .card {
+      width: 300px;
+      padding: 30px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.08);
+      transition: transform 0.3s, border 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      border: 1px solid #d946ef;
+    }
+
+    .card h3 {
+      font-size: 26px;
+      margin-bottom: 15px;
+      color: #d946ef;
+    }
+
+    .card p {
+      font-size: 16px;
+      color: #ddd;
+    }
+
+    .works {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .works h2 {
+      font-size: 48px;
+      margin-bottom: 40px;
+      color: #d946ef;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .gallery a {
+      display: block;
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gallery a:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 20px #d946ef;
+    }
+
+    .gallery img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: 280px;
+    }
+
+    footer {
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+
+    footer a {
+      color: #d946ef;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TUSHAR</h1>
+    <a href="https://instagram.com/tushxr.sharma" target="_blank">Contact</a>
+  </header>
+
+  <section class="hero">
+    <h2>Hey there, I'm Tushar Sharma</h2>
+    <p>Unique Designer At Your Work</p>
+  </section>
+
+  <div class="cards">
+    <div class="card">
+      <h3>About Me</h3>
+      <p>My name is Tushar Sharma. I'm a 20-year-old Agra-based graphic designer with 2 years of hands-on experience providing companies with their creative design needs. Passionate about visual storytelling and unique brand presentation.</p>
+    </div>
+    <div class="card">
+      <h3>My Expertise</h3>
+      <p>Master in Canva, PicsArt, and Photoshop. Delivering professional, high-quality designs with precision, modern trends, and bold aesthetics.</p>
+    </div>
+  </div>
+
+  <section class="works">
+    <h2>My Works</h2>
+    <div class="gallery">
+      <a href="project1.jpg" target="_blank"><img src="project1.jpg" alt="work1"></a>
+      <a href="project2.jpg" target="_blank"><img src="project2.jpg" alt="work2"></a>
+      <a href="edittt.jpg" target="_blank"><img src="edittt.jpg" alt="work3"></a>
+      <a href="editttttt.jpg" target="_blank"><img src="editttttt.jpg" alt="work4"></a>
+      <a href="thumbnail2.jpg" target="_blank"><img src="thumbnail2.jpg" alt="work5"></a>
+      <a href="project6.jpg" target="_blank"><img src="project6.jpg" alt="work6"></a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Tushar Sharma | 
+    <a href="https://instagram.com/tushxr.sharma" target="_blank">Instagram</a>
+    <a href="tel:+916398356594">Call Me</a>
+  </footer>
+
+</body>
+</html>
